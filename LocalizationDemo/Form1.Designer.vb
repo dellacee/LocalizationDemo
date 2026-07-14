@@ -22,25 +22,18 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.cboLanguage = New System.Windows.Forms.ComboBox()
         Me.btnLoad = New System.Windows.Forms.Button()
         Me.dgvServices = New System.Windows.Forms.DataGridView()
+        Me.txtLanguage = New System.Windows.Forms.TextBox()
         CType(Me.dgvServices, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
-        'cboLanguage
-        '
-        Me.cboLanguage.FormattingEnabled = True
-        Me.cboLanguage.Location = New System.Drawing.Point(61, 113)
-        Me.cboLanguage.Name = "cboLanguage"
-        Me.cboLanguage.Size = New System.Drawing.Size(121, 28)
-        Me.cboLanguage.TabIndex = 0
-        '
         'btnLoad
         '
-        Me.btnLoad.Location = New System.Drawing.Point(251, 112)
+        Me.btnLoad.Location = New System.Drawing.Point(223, 90)
+        Me.btnLoad.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.btnLoad.Name = "btnLoad"
-        Me.btnLoad.Size = New System.Drawing.Size(77, 28)
+        Me.btnLoad.Size = New System.Drawing.Size(68, 31)
         Me.btnLoad.TabIndex = 1
         Me.btnLoad.Text = "Load"
         Me.btnLoad.UseVisualStyleBackColor = True
@@ -48,29 +41,39 @@ Partial Class Form1
         'dgvServices
         '
         Me.dgvServices.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.dgvServices.Location = New System.Drawing.Point(61, 181)
+        Me.dgvServices.Location = New System.Drawing.Point(54, 145)
+        Me.dgvServices.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.dgvServices.Name = "dgvServices"
         Me.dgvServices.RowHeadersWidth = 62
         Me.dgvServices.RowTemplate.Height = 28
-        Me.dgvServices.Size = New System.Drawing.Size(645, 653)
+        Me.dgvServices.Size = New System.Drawing.Size(573, 522)
         Me.dgvServices.TabIndex = 2
+        '
+        'txtLanguage
+        '
+        Me.txtLanguage.Location = New System.Drawing.Point(67, 91)
+        Me.txtLanguage.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtLanguage.Name = "txtLanguage"
+        Me.txtLanguage.Size = New System.Drawing.Size(152, 22)
+        Me.txtLanguage.TabIndex = 3
         '
         'Form1
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 967)
+        Me.ClientSize = New System.Drawing.Size(719, 774)
+        Me.Controls.Add(Me.txtLanguage)
         Me.Controls.Add(Me.dgvServices)
         Me.Controls.Add(Me.btnLoad)
-        Me.Controls.Add(Me.cboLanguage)
+        Me.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Name = "Form1"
         Me.Text = "Form1"
         CType(Me.dgvServices, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
-
-    Friend WithEvents cboLanguage As ComboBox
     Friend WithEvents btnLoad As Button
     Friend WithEvents dgvServices As DataGridView
+    Friend WithEvents txtLanguage As TextBox
 End Class

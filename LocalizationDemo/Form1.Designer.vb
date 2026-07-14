@@ -30,7 +30,7 @@ Partial Class Form1
         '
         'btnLoad
         '
-        Me.btnLoad.Location = New System.Drawing.Point(223, 90)
+        Me.btnLoad.Location = New System.Drawing.Point(229, 90)
         Me.btnLoad.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.btnLoad.Name = "btnLoad"
         Me.btnLoad.Size = New System.Drawing.Size(68, 31)
@@ -46,12 +46,12 @@ Partial Class Form1
         Me.dgvServices.Name = "dgvServices"
         Me.dgvServices.RowHeadersWidth = 62
         Me.dgvServices.RowTemplate.Height = 28
-        Me.dgvServices.Size = New System.Drawing.Size(573, 522)
+        Me.dgvServices.Size = New System.Drawing.Size(378, 348)
         Me.dgvServices.TabIndex = 2
         '
         'txtLanguage
         '
-        Me.txtLanguage.Location = New System.Drawing.Point(67, 91)
+        Me.txtLanguage.Location = New System.Drawing.Point(54, 94)
         Me.txtLanguage.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtLanguage.Name = "txtLanguage"
         Me.txtLanguage.Size = New System.Drawing.Size(152, 22)
@@ -61,7 +61,7 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(719, 774)
+        Me.ClientSize = New System.Drawing.Size(499, 548)
         Me.Controls.Add(Me.txtLanguage)
         Me.Controls.Add(Me.dgvServices)
         Me.Controls.Add(Me.btnLoad)

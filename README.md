@@ -7,8 +7,8 @@ The project uses SQL Server LocalDB with two main tables:
 ## Setup Instructions
 1. **Database:**
    - Open SQL Server Management Studio (SSMS).
-   - Execute `Database/Schema.sql` to initialize the table structure.
-   - Execute `Database/SeedData.sql` to populate the sample data.
+   - Execute `Scripts/Schema.sql` to initialize the table structure.
+   - Execute `Scripts/SeedData.sql` to populate the sample data.
 
 2. **Configuration:**
    - Open the `App.config` file in the project.
